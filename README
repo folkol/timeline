@@ -1,0 +1,9 @@
+1) Download database dump of en.wikipedia
+   - https://dumps.wikimedia.org/eewiki/20150603/eewiki-20150603-pages-articles.xml.bz2
+
+2) Extract the archive
+   - bzip2 -d ../enwiki-20150602-pages-articles.xml.bz2
+
+3) Extract all pages with a title of \w+( BC)?
+   - python extract_number_pages.py
+
